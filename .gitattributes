@@ -1,0 +1,10 @@
+# Default is to keep crlf line endings
+text=auto
+
+README.md text eol=crlf
+*.C text eol=crlf linguist-language=C
+*.COM binary
+*.H text eol=crlf linguist-language=C
+*.SUB text eol=crlf
+*.TXT text eof=crlf
+*.lbr binary

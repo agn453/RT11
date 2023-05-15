@@ -1,0 +1,8 @@
+;Compile and link RT11 using BDS-C v1.46
+cc1 rt11.c
+cc1 rtmisc.c
+cc1 rtfiles.c
+clink rt11 rtmisc rtfiles
+era rt11.crl
+era rtmisc.crl
+era rtfiles.crl
