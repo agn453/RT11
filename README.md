@@ -12,3 +12,13 @@ I think the original source came on one of the BDS-C User Group disks
 and submitted into the public domain by William C. Colley, III in
 March 1981.
 
+There are two prebuilt binaries provided.
+
+For use with the DISK-1 BIOS (sector numbering 1..26) [src/RT11-D1.COM](https://raw.githubusercontent.com/agn453/RT11/master/src/RT11-D1.COM),
+and for other systems where the BIOS routines expect sector numbering 0..25
+[src/RT11-ND1.COM](https://raw.githubusercontent.com/agn453/RT11/master/src/RT11-ND1.COM).
+
+A CP/M format library file containing all files is
+[rt11-12.lbr](https://raw.githubusercontent.com/agn453/RT11/master/rt11-12.lbr).
+
+Tony Nicholson 17-May-2023
